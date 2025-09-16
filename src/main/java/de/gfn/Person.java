@@ -1,6 +1,12 @@
 package de.gfn;
 
-public class Person {
+/**
+ * Definiert eine Person
+ * @author Tomasz Lubowiecki
+ * @since 24
+ * @version 1.0
+ */
+public class Person implements Comparable<Person> {
 
     private String vorname;
 
@@ -20,10 +26,18 @@ public class Person {
         return vorname;
     }
 
+    /**
+     * Setzt den internen Zustand des Vornamens einer Person
+     * @param vorname Der Vorname als Zeichenkette
+     */
     public void setVorname(String vorname) {
         this.vorname = vorname;
     }
 
+    /**
+     * Gibt den internen Zustand des Nachnamens einer Person zurück
+     * @return Nachname als Zeichenkette
+     */
     public String getNachname() {
         return nachname;
     }
@@ -37,5 +51,10 @@ public class Person {
     @Override
     public String toString() {
         return vorname + ' ' + nachname;
+    }
+
+    @Override
+    public int compareTo(Person other) { // Dieses Objekt wird mit einem anderen verglichen
+        return nachname.compareTo(other.nachname);
     }
 }
