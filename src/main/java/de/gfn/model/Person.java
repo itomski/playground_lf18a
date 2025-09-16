@@ -1,4 +1,4 @@
-package de.gfn;
+package de.gfn.model;
 
 /**
  * Definiert eine Person

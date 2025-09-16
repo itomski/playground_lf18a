@@ -1,5 +1,7 @@
 package de.gfn;
 
+import de.gfn.model.Person;
+
 import java.util.Comparator;
 
 public class PersonVornameComparator implements Comparator<Person> {

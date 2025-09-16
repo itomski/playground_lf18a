@@ -1,5 +1,7 @@
 package de.gfn;
 
+import de.gfn.model.Person;
+
 import java.util.ArrayList;
 
 public class ArrayListTest {
