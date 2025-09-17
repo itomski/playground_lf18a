@@ -1,4 +1,4 @@
-package de.gfn;
+package de.gfn.arrays;
 
 import de.gfn.model.Person;
 

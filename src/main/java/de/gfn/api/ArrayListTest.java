@@ -1,4 +1,4 @@
-package de.gfn;
+package de.gfn.api;
 
 import de.gfn.model.Person;
 
