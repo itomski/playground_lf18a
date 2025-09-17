@@ -65,5 +65,9 @@ public class ArrayList2Test {
 
         // Fügt alle Elemente in die ArrayList ein
         werte.addAll(List.of(10,22,17,19,8,12,99,7));
+
+        werte.add(9, 100);
+        System.out.println(werte);
+
     }
 }
