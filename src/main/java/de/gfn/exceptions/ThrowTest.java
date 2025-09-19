@@ -13,7 +13,6 @@ public class ThrowTest {
         catch (ZuHochException e) {
             System.out.println("+++++");
         }
-
     }
 
     private static boolean checkAlter(int alter) {
